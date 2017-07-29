@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        function test() {
+            var videoTest = document.getElementById("testvideo");
+            var duration = videoTest.currentMedia.durationString;
+            console.log(duration);
+            var currentTime = videoTest.currentTime;
+            console.log(currentTime);
+        }
+
+        function jump() {
+            var videoTest = document.getElementById("testvideo");
+            var setObj = document.getElementsByName("jumper");
+            for (var i = 0; i < setObj.length; i++) {
+                setObj[i].onclick = function() {
+                    console.log("当前URL为", this.innerHTML);
+                    videoTest.currentTime = this.innerHTML;
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <video id="testvideo" width="500px" height="500px" controls>
+            <source src="Test.webm" type="video/webm">
+    </video>
+    <button onclick="test();">test</button>
+    <br>
+    <p name="jumper" onclick="jump();">1810</p>
+    <br>
+    <p name="jumper">1850</p>
+    <br>
+    <p name="jumper">1900</p>
+
+
+</body>
+
+</html>
