@@ -3,7 +3,7 @@
 ## Pull Docker hub
 print("$ sudo docker pull selenium/hub")
 ## Pull Docker node
-print("$ sudo docker pull")
+print("$ sudo docker pull selenium/node-chrome")
 
 # Launch Selenium
 
