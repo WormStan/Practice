@@ -14,7 +14,7 @@ $ sudo docker pull selenium/node-chrome
 
 ### Launch Selenium Hub
 
-$ sudo docker run -d -P --name selenium-hub selenium/hub
+$ sudo docker run -d -p 4444:4444 --name selenium-hub selenium/hub
 
 ### Launch Selenium Node
 
