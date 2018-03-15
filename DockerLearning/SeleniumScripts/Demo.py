@@ -3,7 +3,7 @@ from time import sleep
 
 driver = webdriver.Remote(
 command_executor='http://127.0.0.1:32768/wd/hub',
-desired_capabilities={'browserName': 'chrome'}
+desired_capabilities={'browserName':'chrome'}
 )
 
 driver.get('https://www.baidu.com')
