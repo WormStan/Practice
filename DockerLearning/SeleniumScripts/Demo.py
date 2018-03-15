@@ -14,7 +14,7 @@ driver.find_element_by_id("su").click()
 
 sleep(1)
 
-driver.get_screenshot_as_file("/home/fnngj/mypro/baidu_img.png")
+driver.get_screenshot_as_file("/home/vagrant/DockerTestFiles/TempFiles/temp.png")
 
 driver.quit()
 print("end...")
