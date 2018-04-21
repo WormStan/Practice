@@ -7,7 +7,7 @@ def BrokenHtml():
 
     tree = lxml.html.fromstring(broken_html) # parse the HTML
     fixed_html = lxml.html.tostring(tree,pretty_print=True)
-    print fixed_html
+    print (fixed_html)
 
 
 if __name__ == '__main__':
