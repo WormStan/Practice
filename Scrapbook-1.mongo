@@ -1,1 +1,0 @@
-db.TestCollection.insert({test1:'1',test2:'2'})
