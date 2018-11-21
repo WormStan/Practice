@@ -70,3 +70,23 @@ class Test {
 }
 
 let t = new Test();
+
+//Usage for ...
+let array_test2 = [1, 2, 3]
+let array_test3 = [...array_test2];
+console.log(array_test3);
+
+//Usage for for of
+for (let test of array_test3) { 
+    console.log(test);
+}
+
+
+//Usage for 2D array
+let array_test4 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+for (let test of array_test4) {
+    console.log(test);
+    for (let i of test) { 
+        console.log(i);
+    }
+}
