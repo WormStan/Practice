@@ -90,3 +90,21 @@ for (let test of array_test4) {
         console.log(i);
     }
 }
+
+//Usage for let/var scope
+
+if (1 == 1) {
+    let TestLet: string = "test";
+}
+else { 
+    console.log(TestLet); // Doesn't work if not in a same code area.
+}
+
+if (1 == 1) {
+    var TestVar: number = 5;
+}
+else{
+    console.log(TestVar); // Work well even if not in a same code area.
+}
+
+
