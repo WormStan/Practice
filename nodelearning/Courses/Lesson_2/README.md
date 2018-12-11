@@ -28,20 +28,26 @@
 
 ### array
 
-`let arrayTest:Array<number> = [1,2,3];`
-`let arrayTest:string[] = ["A","B","C"];`
-`let arraytt:any[] = ["This is a string",7,false];`
+```JAVASCRIPT
+let arrayTest:Array<number> = [1,2,3];
+let arrayTest:string[] = ["A","B","C"];
+let arraytt:any[] = ["This is a string",7,false];
+```
 
 ### tuple
 
-`let tupleTest: [string,number];`
-`tupleTest = ['This is a string',10]; //ok`
-`tupleTest = [10,'This is a string']; //error`
+```JAVASCRIPT
+let tupleTest: [string,number];
+tupleTest = ['This is a string',10]; //ok
+tupleTest = [10,'This is a string']; //error
+```
 
 ### enum
 
-`enum Animals {Dog = "wang wang",Cat = "miao miao",Fish = "sorry, I can't"};`
-`let dog:Animals = Animals.Dog;`
+```JAVASCRIPT
+enum Animals {Dog = "wang wang",Cat = "miao miao",Fish = "sorry, I can't"};
+let dog:Animals = Animals.Dog;
+```
 
 ## Print variable
 
