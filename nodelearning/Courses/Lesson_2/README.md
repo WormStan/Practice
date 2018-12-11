@@ -49,7 +49,7 @@
 
 ```JAVASCRIPT
 let my_first_alert: string = "You can see me when you open the browser!";
-window.alert();
+window.alert(my_first_alert);
 ```
 
 ### Demo 2 -- console.log()
