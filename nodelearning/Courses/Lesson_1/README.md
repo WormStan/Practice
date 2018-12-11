@@ -10,6 +10,12 @@
 
 TypeScript是一种由微软开发的自由和开源的编程语言。它是JavaScript的一个超集，而且本质上向这个语言添加了可选的静态类型和基于类的面向对象编程。
 
+## Purpose for learning
+
+- [Protractor](https://www.protractortest.org/#/)
+- [TestCafe](https://github.com/DevExpress/testcafe/blob/master/examples/basic/test.js)
+- Other Frameworks
+
 ## Demo 1 -- A simple page
 
 - A HTML page
