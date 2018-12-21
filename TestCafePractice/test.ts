@@ -1,8 +1,7 @@
-import { Selector } from 'testcafe'; // first import testcafe selectors
+import { Selector, t } from 'testcafe'; // first import testcafe selectors
 
 fixture `Getting Started`// declare the fixture
-    .page `https://devexpress.github.io/testcafe/example`;  // specify the start page
-
+    .page `https://devexpress.github.io/testcafe/example`  // specify the start page
 
 //then create a test and place your code there
 test('My first test', async t => {
