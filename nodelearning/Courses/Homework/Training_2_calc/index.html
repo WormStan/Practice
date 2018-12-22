@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Homework 2 -- Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    </head>
+
+    <body>
+        <h1>Calculator -- Lite Version</h1>
+        <div>
+            <input type="text" id="ele_input_val1" oninput="value=value.replace(/[^\d]/g,'')">
+            <select class="ele_select_calc">
+                <option value="add">+</option>
+                <option value="sub">-</option>
+                <option value="mul">*</option>
+                <option value="div">/</option>
+            </select>
+            <input type="text" id="ele_input_val2" oninput="value=value.replace(/[^\d]/g,'')">
+            <button id="ele_btn_calc">calc!</button>
+            <span>&nbsp;=&nbsp;</span>
+            <span class="ele_span_result"></span>
+        </div>
+        <script src="jquery-3.3.1.js"></script>
+        <script src="main.js"></script>
+    </body>
+
+</html>
+
+
