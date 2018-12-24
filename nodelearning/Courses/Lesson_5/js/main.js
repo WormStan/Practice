@@ -49,7 +49,7 @@ $("#ele_btn_demo4").click(
  */
 $("#ele_btn_demo5").click(
     function() {
-        let val = $("#ele_div_demo4 div ul li[attrDemo='attr1']").text();
+        let val = $("#ele_div_demo5 div ul li[attrDemo='attr1']").text();
         alert(val);
     }
 );
