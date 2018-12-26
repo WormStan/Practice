@@ -1,8 +1,6 @@
 import {browser} from 'protractor';
 import {LoginPage} from './login_page';
 import {LoginData} from './login_data';
-import {element,by} from 'protractor';
-import { async } from 'q';
 
 
 browser.waitForAngularEnabled(false);
