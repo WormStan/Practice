@@ -5,7 +5,7 @@ export let config:Config = {
     capabilities: {
       browserName: 'chrome'
     },
-    specs: ['login-spec.js'],
+    specs: ['login_spec.js'],
     seleniumAddress: 'http://localhost:4444/wd/hub',
   
     // You could set no globals to true to avoid jQuery '$' and protractor '$'
