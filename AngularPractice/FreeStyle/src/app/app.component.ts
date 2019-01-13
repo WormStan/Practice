@@ -8,6 +8,6 @@ import { Hero } from './hero';
 })
 
 export class AppComponent {
-  heroes = [],
+  heroes = [];
   title = 'FreeStyle';
 }
